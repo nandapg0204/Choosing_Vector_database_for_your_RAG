@@ -6,3 +6,7 @@
 <h3>Key Concepts in Vector Databases</h3>
 <li><strong>Vector Embedding : </strong>Vector embeddings are mathematical representation of data. These are produced using a pretrained model called Embedding model, which is basically a neural network model with output layer being removed. One of the common examples of embedding model are word2vec, which is used for text based tasks. </li>
 <li><strong>Semantic search : </strong> Semantic search refers to search my meaning. Unlike keyword based searches, semantic search uses NLP(Natural  langauge processing) techniques to search by contextual meaning.</li>
+<h3>How does Vector databases work ? </h3>
+<p>Here’s a step-by-step breakdown of their operation:</p>
+<p><strong>1. Data collection and embedding : </strong> The data is collected and preprocessed to ensure consistency. The preprocessed data is embedded using embedded models.Incase of text 
+</p> 
