@@ -1,4 +1,4 @@
-<h1>Which Vector database to choose for your RAG?</h1>
+<h1>Vector database for your RAG?</h1>
 <dl><dd> In the realm of data management and search technology, vector databases are an emerging technology that are designed to handle complex data and enable efficient similarity and semantic searches.. Here's a concise guide to understanding vector databases and their applications.</dl></dd>
 <dl><dd>
 <h2>What is a Vector Database?</h2>
