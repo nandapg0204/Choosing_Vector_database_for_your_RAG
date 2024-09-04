@@ -40,3 +40,55 @@
 <li><strong>FAISS :</strong> Developed by Facebook, this library is optimized for high-speed similarity searches in large datasets.</li>
 <br>
 <h2> Which Vector database to choose?</h2>
+
+
+
+
+<table border="1" align="center"> <thead>
+            <tr>
+                <th>Feature</th>
+                <th>Pine cone</th>
+                <th>Milvus</th>
+                <th>Qdrant</th>
+                <th>FAISS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Deployment</td>
+                <td>Fully managed cloud service</td>
+                <td>Open-source, cloud and on-premise</td>
+                <td>Open-source, Fully managed cloud service</td>
+                <td>Open-source, on-premise, in memory</td>
+            </tr>
+            <tr>
+                <td>Ease of Use</td>
+                <td>Easy to use, minimal setup required</td>
+                <td>Moderate setup complexity</td>
+                <td>Easy to use, minimal setup required</td>
+                <td>Requires more configuration and tuning</td>
+            </tr>
+            <tr>
+                <td>Cost</td>
+                <td>Pay as you go</td>
+                <td>Open source with optional paid support</td>
+                <td>Pay as you go</td>
+                <td>Open source(costs for custom solutions)</td>
+            </tr>
+            <tr>
+                <td>Platform</td>
+                <td>Cloud</td>
+                <td>Cloud and on premise</td>
+                <td>Cloud and on premise</td>
+                <td>Cloud and on premise</td>
+            </tr>
+            <tr>
+                <td>Query types</td>
+                <td>Vector similarity, exact match</td>
+                <td>Vector similarity, approximate search</td>
+                <td>Vector similarity, hybrid search</td>
+                <td>Vector similarity, approximate search</td>
+            </tr>
+        </tbody>
+</table>
+
