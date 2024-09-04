@@ -38,4 +38,5 @@
 <li><strong>Milvus :</strong>An open-source vector database designed for similarity search, capable of handling large-scale data efficiently.</li>
 <li><strong>Qdrant :</strong> Qdrant Cloud is a scalable, efficient vector database for search.</li>
 <li><strong>FAISS :</strong> Developed by Facebook, this library is optimized for high-speed similarity searches in large datasets.</li>
-
+<br>
+<h2> Which Vector database to choose?</h2>
