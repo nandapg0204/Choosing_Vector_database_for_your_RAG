@@ -34,7 +34,8 @@
 <br>
 <h2>Examples of Vector Databases :</h2>
 <p>There are a few standout vector databases worth mentioning(Refer to the uploaded notedbooks for implementation): </p>
-<li><strong>Pine cone:</strong>Pine cone is a cloud-based service that handles vector search and similarity search with high throughput and low latency.</li>
-<li><strong>Milvus:</strong>An open-source vector database designed for similarity search, capable of handling large-scale data efficiently.</li>
-<li><strong>       </li>
+<li><strong>Pine cone :</strong>Pine cone is a cloud-based service that handles vector search and similarity search with high throughput and low latency.</li>
+<li><strong>Milvus :</strong>An open-source vector database designed for similarity search, capable of handling large-scale data efficiently.</li>
+<li><strong>Qdrant :</strong> Qdrant Cloud is a scalable, efficient vector database for search.</li>
+<li><strong>FAISS :</strong> Developed by Facebook, this library is optimized for high-speed similarity searches in large datasets.</li>
 
