@@ -8,7 +8,6 @@
 <p>Vector databases store these vectors and make it super efficient to search through them. This is especially useful for applications that require semantic search—searching based on the meaning and context rather than just keywords.
 </p>
 <p></p>
-
 <br>
 <h2>How Do Vector Databases Work</h2>
 <p>Let’s break down how these databases work. Traditional databases use row-based or column-based storage. But with vector databases, data is organized into vectors, and each vector is associated with an ID and metadata.</p>
@@ -18,7 +17,8 @@
 <li><strong>Cosine Similarity </strong>focuses on the direction of the vectors, ignoring their magnitude.</li>
 <li><strong>Euclidean Distance </strong>measures the straight-line distance between two points in high-dimensional space.</li>
 <li><strong>Manhattan distance </strong>measures distance by summing absolute coordinate differences.</li>
-<h3>Building a Vector Database</h3>
+<br>
+<h2>Building a Vector Database</h2>
 <p>Now, let’s dive into how you can build your own vector database from scratch. Here’s a high-level overview of the steps involved:</p>
 <p><strong>1. Define Your Use Case :</strong>Determine what type of data you’ll be storing (text, images, audio, etc.) and what kind of queries you need to support (semantic search, recommendation, etc.).</p>
 <p><strong>2. Chunking Your Data :</strong>Divide your data into manageable chunks if necessary. This is especially important for text processing as breaking down large texts into smaller helps to capture better semantic meaning in the sentences</p>
@@ -26,11 +26,13 @@
 <p><strong>4. Set Up Your Database :</strong> Choose an appropriate indexing technique for efficient similarity search. Options include Hierarchical Navigable Small World (HNSW) graphs, Inverted File with Product Quantization (IVF-PQ), or ANN (Approximate Nearest Neighbors).Decide on how you want to store your vectors. You can use open-source databases like Milvus or FAISS, or a managed service like Pinecone, Qdrant</p>
 <p><strong>5. Implement the Search Algorithm :</strong>Implement search algorithms based on your needs. K-Nearest Neighbors (KNN) can be used for exact matches, while ANN can provide faster approximate results. Implement methods like Cosine Similarity or Euclidean Distance to measure how similar vectors are.</p>
 <p><strong>6. Test, Deploy and Monitor :</strong>Test the performance of your vector database. Ensure that it handles large datasets efficiently and returns relevant results quickly.Deploy the database in appropriate cloud based on bussiness requirements.</p>
-<h3>Vector Databases in Action</h3>
+<br>
+<h2>Vector Databases in Action</h2>
 <li><strong>Recommendation Systems:</strong> Vector databases help in finding items similar to what you like by comparing vectors representing user preferences and item features.</li>
 <li><strong>Content-Based Image Retrieval:</strong> They enable searching for images with similar content by comparing their vector embeddings.</li>
 <li><strong>Semantic Search:</strong> Instead of just keyword matching, search engines can use vectors to understand the context and provide more relevant results.</li>
-<h3>Examples of Vector Databases :</h3>
+<br>
+<h2>Examples of Vector Databases :</h2>
 <p>There are a few standout vector databases worth mentioning(Refer to the uploaded notedbooks for implementation): </p>
 <li><strong>Pine cone:</strong>Pine cone is a cloud-based service that handles vector search and similarity search with high throughput and low latency.</li>
 <li><strong>Milvus:</strong>An open-source vector database designed for similarity search, capable of handling large-scale data efficiently.</li>
