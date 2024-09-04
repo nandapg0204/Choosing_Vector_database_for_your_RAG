@@ -19,10 +19,15 @@
 <h3>Building a Vector Database</h3>
 <p>Now, let’s dive into how you can build your own vector database from scratch. Here’s a high-level overview of the steps involved:</p>
 <p><strong>1. Define Your Use Case :</strong>Determine what type of data you’ll be storing (text, images, audio, etc.) and what kind of queries you need to support (semantic search, recommendation, etc.).</p>
-<p><strong>2. </strong>
-
-
-
+<p><strong>2. Chunking Your Data :</strong>Divide your data into manageable chunks if necessary. This is especially important for text processing as breaking down large texts into smaller helps to capture better semantic meaning in the sentences</p>
+<p><strong>3. Generating Embeddings:</strong>Select a model to generate vector embeddings for your data. For text, consider models like Word2Vec, GloVe, or BERT. For images, CNNs (Convolutional Neural Networks) are useful. Convert your data into vector embeddings using the chosen model.</p>
+<p><strong>4. Set Up Your Database :</strong> Choose an appropriate indexing technique for efficient similarity search. Options include Hierarchical Navigable Small World (HNSW) graphs, Inverted File with Product Quantization (IVF-PQ), or ANN (Approximate Nearest Neighbors).Decide on how you want to store your vectors. You can use open-source databases like Milvus or FAISS, or a managed service like Pinecone, Qdrant</p>
+<p><strong>5. Implement the Search Algorithm :</strong>Implement search algorithms based on your needs. K-Nearest Neighbors (KNN) can be used for exact matches, while ANN can provide faster approximate results. Implement methods like Cosine Similarity or Euclidean Distance to measure how similar vectors are.</p>
+<p><strong>6. Test, Deploy and Monitor :</strong>Test the performance of your vector database. Ensure that it handles large datasets efficiently and returns relevant results quickly.Deploy the database in appropriate cloud based on bussiness requirements.</p>
+<h3>Vector Databases in Action</h3>
+<li><strong>Recommendation Systems:</strong> Vector databases help in finding items similar to what you like by comparing vectors representing user preferences and item features.</li>
+<li><strong>Content-Based Image Retrieval:</strong> They enable searching for images with similar content by comparing their vector embeddings.</li>
+<li><strong>Semantic Search:</strong> Instead of just keyword matching, search engines can use vectors to understand the context and provide more relevant results.</li>
 
 
 
@@ -40,7 +45,4 @@
 <h3>Key Concepts in Vector Databases</h3>
 <li><strong>Vector Embedding : </strong>Vector embeddings are mathematical representation of data. These are produced using a pretrained model called Embedding model, which is basically a neural network model with output layer being removed. One of the common examples of embedding model are word2vec, which is used for text based tasks. </li>
 <li><strong>Semantic search : </strong> Semantic search refers to search my meaning. Unlike keyword based searches, semantic search uses NLP(Natural  langauge processing) techniques to search by contextual meaning.</li>
-<h3>How does Vector databases work ? </h3>
-<p>Here’s a step-by-step breakdown of their operation:</p>
-<p><strong>1. Data collection and embedding : </strong> The data is collected and preprocessed to ensure consistency. The preprocessed data is embedded using embedded models.Incase of text 
-</p> 
+
