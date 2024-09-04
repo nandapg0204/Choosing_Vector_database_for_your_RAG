@@ -92,3 +92,6 @@
         </tbody>
 </table>
 
+<p>And that's a wrap on our deep dive into vector databases! These technologies are shaping the future of search, recommendations, and data retrieval.</p>
+<p>
+See you next time, and stay curious!</p>
