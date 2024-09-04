@@ -8,7 +8,9 @@
 <p>Vector databases store these vectors and make it super efficient to search through them. This is especially useful for applications that require semantic search—searching based on the meaning and context rather than just keywords.
 </p>
 <p></p>
-<h3>How Do Vector Databases Work</h3>
+
+<br>
+<h2>How Do Vector Databases Work</h2>
 <p>Let’s break down how these databases work. Traditional databases use row-based or column-based storage. But with vector databases, data is organized into vectors, and each vector is associated with an ID and metadata.</p>
 <p> To search over the database, we create a vector embedding of the query and perform the search to find the similar vector embeddings in the database</p>
 <p>To find similarities between vectors, we use techniques like Euclidean Distance, Manhattan Distance, and Cosine Similarity. For instance:</p>
