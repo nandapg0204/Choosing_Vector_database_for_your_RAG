@@ -1,7 +1,7 @@
 <h1> Demystifying Vector database : The Future of Search and Recommendations</h1>
 <p>Hey everyone, welcome! Today, we're diving into the fascinating world of vector databases. If you're curious about how semantic search, recommendation systems, and even image recognition are evolving, stick around<p>
 <p></p>
-<h3> What is a Vector base</h3>
+<h2> What is a Vector base</h2>
 <p> So, what exactly are vector databases? Imagine traditional databases, which are like massive spreadsheets with rows and columns. Now, vector databases are a bit different. They're designed to handle high-dimensional vectors—think of these as complex mathematical representations of data. </p>
 <p></p>
 <p>Vectors are essentially lists of numbers that represent data. For example, in image recognition, a vector might include pixel values or specific features of the image. In a recommendation system, vectors could capture elements like tempo, genre, or even the lyrics of a song.In semantic search, vectors are the embeddings that has captured the contextual meaning of the text</p>
